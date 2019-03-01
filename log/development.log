@@ -1675,3 +1675,5 @@ Cannot render console from 190.115.155.202! Allowed networks: 127.0.0.1, ::1, 12
 Processing by PostsController#body as HTML
   Parameters: {"id"=>"10"}
   [1m[36mPost Load (0.2ms)[0m  [1mSELECT  "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT 1[0m  [["id", 10]]
+  Rendered text template (0.1ms)
+Completed 200 OK in 2ms (Views: 0.5ms | ActiveRecord: 0.2ms)
